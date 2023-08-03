@@ -1,0 +1,75 @@
+.loginform-box{
+    background: #FFFFFF;
+    box-shadow: -4px 7px 64px rgba(0, 0, 0, 0.10);
+    height: 25rem;
+    width: 25rem;
+    border-radius: 22px;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 8px;
+    justify-content: center;
+}
+
+.form-control {
+    background: #FBFBFB;
+    border: 1px solid #DBE4EA;
+    border-radius: 10px;
+    line-height: 2;
+    width: 17rem;
+    font-size: smaller;
+    color: #333536 !important;
+}
+
+.log-text{
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+    margin-left: -1rem;
+}
+.log-text-1{
+    color: cornflowerblue;
+    margin-left: 0.1rem;
+    text-underline-position: below;
+    
+}
+
+.error-text{
+    color: rgb(231, 70, 70);
+    size: 1px;
+}
+.google{
+    display: flex;
+    margin-left: 1rem;
+}
+
+.googlebutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: grey;
+    border-width: 1px;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: normal; 
+    cursor: "pointer";
+  
+  }
+.google-logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: grey;
+    border-width: 1px;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: normal; 
+    cursor: "pointer";
+}

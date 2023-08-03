@@ -1,0 +1,126 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+.navbar {
+ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  margin: 1rem;
+  padding: auto;
+  background: #ffffff;
+  box-shadow: -10px 9px 64px rgba(0, 0, 0, 0.1);
+  border-radius: 70px;
+  width: calc(100% - 2rem); /* Set the width to the full screen width minus the margin */
+  left: 0rem; /* Adjust the left positioning to match the margin */
+  right: 0rem;
+}
+
+
+.nav-links {
+    margin-left:auto;
+    padding-right: 150px;
+  display: flex;
+  list-style: none;
+  width: 75%;
+}
+.nav-links li {
+  display: inline-block;
+  margin: 0;
+}
+
+.nav-links li:hover {
+    background: none; /* Remove the background gradient */
+    border-radius: 5px;
+    background-position: center;
+    background-clip: initial; /* Reset background-clip property */
+    -webkit-background-clip: initial; /* Reset -webkit-background-clip property */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+    background-size: initial; /* Reset background-size property */
+    background-image: linear-gradient(95.49deg, #0f9cd8 -7.55%, #07c051 121.89%); /* Set the gradient as the text background */
+    -webkit-background-clip: text; /* Clip the gradient to the text */
+    -webkit-text-fill-color: transparent; /* Make the text transparent again to show the gradient */
+    position: relative; /* Set the position of the pseudo-element */
+  }
+  
+  .nav-links li:hover::after {
+    content: ''; /* Create a pseudo-element */
+    position: absolute; /* Position the pseudo-element */
+    left: 0; /* Adjust the position as needed */
+    bottom: -2px; /* Adjust the position as needed */
+    width: 100%; /* Set the width of the underline */
+    height: 2px; /* Set the height of the underline */
+    background-image: linear-gradient(95.49deg, #0f9cd8 -7.55%, #07c051 121.89%); /* Set the gradient as the underline background */
+  }
+  
+  
+
+  .home,
+  .about,
+  .support,
+  .signin {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 0%;
+    margin: 30px 0;
+    cursor: pointer;
+    font-family: "Azeret Mono", monospace;
+  }
+  
+.logo {
+    
+  width: 250%; /* or use a specific percentage value */
+  max-width: 300px;
+  height: 125%;
+  max-height: 100px;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+      height: auto; /* Allow the navbar to adjust its height based on content */
+    }
+  
+    .logo {
+      width: 200px; 
+      margin-right: 0; /* Remove margin for smaller screens */
+      margin-bottom: 6px;
+      margin-top: 6px; /* Add margin-bottom to create space */
+    }
+
+    .navbar .nav-links li {
+      font-size: 14px; /* Adjust the font size for smaller screens */
+      padding: 8px; /* Adjust the padding for smaller screens */
+      margin: 0 20px; /* Adjust the margins for smaller screens */
+    }
+  
+    .nav-drop-icon {
+      margin-left: 0; /* Remove margin for smaller screens */
+      margin-top: 10px; /* Add margin-top to create space */
+    }
+  }
+  
+  .center-container{
+    display: flex;
+    justify-content: center;
+  }
+  .avatar-container {
+    display: flex;
+    align-items: center;
+    margin-left:45px; 
+    margin-top: 10px;
+  
+    /* Adjust this to position the avatar within the navbar */
+  }
+  @media (max-width: 768px) {
+    .avatar-container {
+      margin-left: 45px;
+      margin-top: 10px;
+    }
+  }
+  
