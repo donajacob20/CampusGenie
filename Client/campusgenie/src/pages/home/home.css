@@ -1,0 +1,157 @@
+.body {
+  color: aliceblue;
+}
+
+.front-page {
+  margin: 2rem;
+  margin-top: 1rem;
+  background-color: #FCFCFC !important;
+}
+
+.border-column{
+  margin-left: 10px;
+  margin-right: 30px;
+  width: 20rem;
+  border: 1px solid transparent; /* Set the border to transparent */
+  border-image: linear-gradient(to right, #0f9cd8, #07c051); /* Replace #ff0000 and #00ff00 with your desired gradient colors */
+  border-image-slice: 1;
+
+}
+
+.button-overlay {
+  position: absolute;
+  top: 35rem;
+  left: 6rem; /* Adjust the position as needed */
+  display: flex;
+  align-items: center;
+  box-shadow: -10px 9px 64px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  border-style: none;
+  padding: 10px 40px; /* Adjust the padding as needed */
+  background: linear-gradient(95.49deg, #0f9cd8 -7.55%, #07c051 121.89%) !important;
+  border-radius: 25px;
+  font-size: large;
+  transition: background 0.3s ease; /* Add a transition effect for smooth hover */
+
+}
+
+.button-overlay:hover {
+  background: linear-gradient(95.49deg, #024b1f -7.55%, #064560 121.89%) !important;
+}
+
+
+.button-overlay .button-label {
+  font-family: "Poppins", sans-serif;
+  margin-right: 9px; /* Adjust the spacing between label and icon */
+}
+
+.button-overlay .button-icon {
+  width: 16px; /* Adjust the width of the icon */
+  height: 16px; /* Adjust the height of the icon */
+  margin-left: 9px; /* Adjust the spacing between icon and label */
+}
+
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px */
+  .button-overlay {
+    padding: 8px 20px;
+    font-size: 1rem;
+    left: 20%;
+    transform: translateX(-50%);
+    bottom: 14rem;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Styles for screens up to 576px */
+  .button-overlay {
+    padding: 4px 10px;
+    font-size: 0.7rem;
+    width: 120px;
+    height: 25px;
+    left: 20%;
+    transform: translateX(-50%);
+    bottom: 18rem;
+  }
+}
+
+
+.about-heading {
+  font-size: 24px;
+  color: #333333;
+}
+
+.about-paragraph {
+  font-size: 16px;
+  color: #666666;
+}
+
+
+
+.grey-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: #C5C5C5;
+}
+
+.small-image {
+  width: 50px; /* Adjust the width as desired */
+  height: 50px; /* Adjust the height as desired */
+}
+
+.black-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  color: black;
+}
+
+.black-bold-text {
+  font-family: 'Poppins Bold', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+}
+
+.border-column {
+  padding: 20px;
+  background-color: white; /* Set the background color if needed */
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: -10px 9px 64px rgba(0, 0, 0, 0.1);
+
+}
+
+.border-column:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  border: 2px;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to bottom right, #0f9cd8, #07c051);
+}
+
+.gap-between {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+}
+
+.gap-between-box {
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}

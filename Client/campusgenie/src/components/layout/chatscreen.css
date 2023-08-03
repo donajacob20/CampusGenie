@@ -1,0 +1,107 @@
+.chat-outer-box {
+  background: white;
+  box-shadow: -4px 7px 64px rgba(0, 0, 0, 0.2);
+  border-radius: 22px;
+  margin-left: 12rem;
+  margin-top: 6rem;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  width: 55rem;
+  height: 28rem;
+}
+
+.dashboard-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+
+
+.outer-text-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: black;
+}
+
+.grey-type-field {
+  display: flex;
+  align-items: center;
+  background-color: #eeeeee;
+  border-radius: 20px;
+  height: 3.5rem;
+  width: 100%;
+  margin-top: 15px;
+  padding: 0%;
+}
+
+.grey-type-field input[type="text"] {
+  flex-grow: 1;
+  border: none;
+  background-color:transparent;
+  padding: 0 10px;
+  outline: none;
+  width: 100%;
+}
+.send-button {
+  background: linear-gradient(to right, #54ad4b, #38a3c4);
+  border-radius: 20px;
+  border: none;
+  padding: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease-in-out;
+}
+
+.button-icon {
+  height: 75%;
+  width: 75%;
+}
+
+.send-button:hover {
+  background: linear-gradient(to right, #8fccdf, #a2d19d);
+}
+.grey-screen {
+  border-color: grey;
+    margin-top: 10px;
+    background-color: #eeeeee;
+    height: 18rem;
+    width: 100%;
+    border-radius: 20px;
+    padding: 1rem;
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .user.message,
+  .chatbot.message {
+    border-radius: 10px;
+    display: block;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    padding: 10px;
+    max-width: 80%;
+    width: fit-content;
+  }
+  
+  .user.message {
+    background: #1fb7dd;
+    color: #ffffff;
+    text-align: right;
+    padding: 10px; /* Adjust padding as needed */
+    margin-left: auto;
+  }
+  
+  .chatbot.message {
+    /* background: #0f9cd8; */
+    background: linear-gradient(95.49deg, #0f9cd8 -7.55%, #07c051 121.89%);
+    text-align: left;
+    color: white;
+    
+    padding: 10px; /* Adjust padding as needed */
+  }
+

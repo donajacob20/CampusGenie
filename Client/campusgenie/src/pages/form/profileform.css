@@ -1,0 +1,165 @@
+.profile-outer-box {
+    background: white;
+    box-shadow: -4px 7px 64px rgba(0, 0, 0, 0.2);
+    border-radius: 22px;
+    margin-left: 11rem;
+    margin-top: 6rem;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 3rem;
+    width: 55rem;
+    height: 70%;
+    padding-bottom: 8rem;
+  }
+  
+  .profile-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: black;
+
+  }
+  
+  .grey-screen {
+    margin-top: 10px;
+    background-color: #eeeeee;
+    height: 18rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .outer-text-field{
+  
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .grey-type-field {
+    margin-top: 15px;
+    background-color: #eeeeee;
+    border-radius: 15px;
+    width: 100%;
+    height: 3.5rem;
+  }
+  .username-text {
+    
+width: 155px;
+height: 45px;
+left: 894px;
+margin-top: 1000px;
+margin-left: 165px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 45px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+  }
+
+
+.username-container{
+    background: #FBFBFB;
+    border: 1px solid #C0C0C0;
+    border-radius: 10px;
+   
+    padding-right: 3rem;
+    width: 95%;
+    height: 38px;
+    margin-left: -30px; 
+  }
+  .email-container{
+    background: #FBFBFB;
+ border: 1px solid #C0C0C0;
+   border-radius: 10px;
+    padding-right: 3rem;
+    width: 95%;
+    height: 38px;
+    margin-left: -30px; 
+  }
+  .field{
+    margin-top: 100px;
+  }
+  
+  .name-container{
+    background: #FBFBFB;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+    width: 100%;
+    height: 50px;
+    margin-left: -26px; 
+  
+  }
+  
+  .center-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100%;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ebebeb;
+    margin: 0 auto;
+    padding-top: 100%;
+    padding: 0%;
+    margin-bottom: 100px; 
+  }
+
+  @media (max-width: 768px) {
+    .profile-outer-box {
+      background: white;
+      box-shadow: -4px 7px 64px rgba(0, 0, 0, 0.2);
+      border-radius: 22px;
+      margin-left: 1rem;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      width: auto;
+      height: auto;
+      padding-bottom: 2rem;
+      
+    }
+  }
+  .together-container
+{
+  padding-top: 2rem;
+}
+@media (max-width: 768px) {
+  .together-container {
+    padding-top: 2rem;
+  }
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  margin-top: 65%;
+  /* Adjust this to position the avatar within the navbar */}
+  @media (max-width: 768px) {
+    .center-container {
+      margin-top: 100%; /* Adjust the margin as needed for smaller screens */
+    }
+  }
+  .profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ebebeb;
+    margin: 0 auto;
+ 
+    margin-bottom: 0%;
+    padding: 0%;
+     /* Add this line to horizontally center the container */
+  }
